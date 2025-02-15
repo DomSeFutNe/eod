@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     "v1.user",
     "v1.character",
     "v1.serverlist",
+    "v1.classes",
+    "v1.spec",
 ]
 
 MIDDLEWARE = [

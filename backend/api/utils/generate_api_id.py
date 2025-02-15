@@ -5,10 +5,16 @@ class GenerateApiId:
         return f"{prefix}_{str(uuid.uuid4())}"
     
 def character_id():
-        return GenerateApiId().generate("char")
+    return GenerateApiId().generate("char")
     
 def user_id():
-        return GenerateApiId().generate("user")
+    return GenerateApiId().generate("user")
     
 def server_list_id():
-        return GenerateApiId().generate("seli")
+    return GenerateApiId().generate("seli")
+    
+def class_id():
+    return GenerateApiId().generate("class")
+
+def spec_id():
+    return GenerateApiId().generate("spec")

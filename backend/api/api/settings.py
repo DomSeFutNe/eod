@@ -43,11 +43,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     "utils",
+    # Models
     "v1.user",
     "v1.character",
     "v1.serverlist",
     "v1.classes",
     "v1.spec",
+    "v1.discord_account",
 ]
 
 MIDDLEWARE = [

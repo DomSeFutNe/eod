@@ -18,3 +18,6 @@ def class_id():
 
 def spec_id():
     return GenerateApiId().generate("spec")
+
+def discord_acc_id():
+    return GenerateApiId().generate("diac")

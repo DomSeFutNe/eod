@@ -30,6 +30,7 @@ class CharacterModel(models.Model):
     level: models.IntegerField = models.IntegerField()
     faction: models.CharField = models.CharField(choices=FractionEnum.choices, max_length=100, default=FractionEnum.ALLIANCE)
     is_main: models.BooleanField = models.BooleanField(default=False)
+    is_internal: models.BooleanField = models.BooleanField(default=False)
 
     def __str__(self):
         class_name = self.selected_class.name if self.selected_class else None

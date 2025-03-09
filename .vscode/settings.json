@@ -3,5 +3,62 @@
         "dotenv",
         "shortuuidfield"
     ],
-    "svn.ignoreMissingSvnWarning": true
+    "svn.ignoreMissingSvnWarning": true,
+    "prettier.configPath": "./eod_raid_helper/.prettierrc",
+    "prettier.endOfLine": "auto",
+    "prettier.ignorePath": "./eod_raid_helper/.prettierignore",
+    "typescript.tsdk": "./eod_raid_helper/node_modules/typescript/lib",
+    "files.autoSave": "onFocusChange",
+    "eslint.enable": true,
+    "eslint.workingDirectories": ["./eod_raid_helper"],
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "eslint.alwaysShowStatus": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.prettier": "explicit",
+        "source.fixAll.markdownlint": "explicit"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "window.density.editorTabHeight": "compact",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.pinnedTabSizing": "shrink",
+    "terminal.integrated.shellArgs.linux": ["-l"],
+    "npm.packageManager": "pnpm",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "eslint.runtime": "/home/hackmin/.local/share/pnpm/node",
+    "reactSnippets.settings.prettierEnabled": false
 }
